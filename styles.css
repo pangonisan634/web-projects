@@ -19,4 +19,19 @@ body {
   color: #15f4ee;
 }
 
+a:link{
+  color: #15f4ee;
+}
+
+a:visited{
+  color: #15f4ee;
+}
+
+a:hover{
+  color: #15f4ee;
+}
+
+a:active{
+  color: #15f4ee;
+}
 
