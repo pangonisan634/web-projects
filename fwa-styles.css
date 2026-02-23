@@ -1,0 +1,37 @@
+/* First and last name */
+/* Current date */
+/* Project title */
+
+/* CSS reset rule */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 16px;
+}
+
+body {
+  background-color:black;
+  font-family: monospace;
+  color: #15f4ee;
+}
+
+a:link{
+  color: #15f4ee;
+}
+
+a:visited{
+  color: #15f4ee;
+}
+
+a:hover{
+  color: #15f4ee;
+}
+
+a:active{
+  color: #15f4ee;
+}
+
