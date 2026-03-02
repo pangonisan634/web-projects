@@ -23,19 +23,21 @@ body {
 
 nav {
 text-align: center;
+padding-bottom:20px
 }
 
 article {
-  /* float: center; */
   padding: 20px;
-  /* width: 50%; */
   text-align: center;
+  margin-left:200px;
+  margin-right:200px;
 }
 
 header {
   padding: 30px;
   text-align: center;
-  /* width: 50%; */
+  margin-left:100px;
+  margin-right:100px;
 }
 
 #title {
