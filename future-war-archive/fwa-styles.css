@@ -11,11 +11,14 @@
 
 :root {
   font-size: 20px;
+  font-family: monospace;
+  --legend: #895129;
+  --laya: #662d91;
+  --beta-001: red;
 }
 
 body {
   background-color:black;
-  font-family: monospace;
   color: #15f4ee;
   margin: 0 auto;
   width: 1100px;
@@ -40,8 +43,16 @@ header {
   margin-right:100px;
 }
 
-#title {
-  text-align: center;
+.beta {
+  color: var(--beta-001)
+}
+
+.legend {
+  color: var(--legend)
+}
+
+.laya {
+  color: var(--laya)
 }
 
 a:link{
@@ -59,4 +70,6 @@ a:hover{
 a:active{
   color: #15f4ee;
 }
+
+
 
