@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Variables & JS Events</title>
+    <style>
+        :root {
+            /* TODO 1: Define CSS variable named main-color */
+           --main-color: rgb(224, 14, 14);
+           
+        }
+
+        
+        #box {   
+            width: 200px;
+            height: 200px;
+     
+            background-color: var(--main-color);
+            
+            margin: 20px;
+         
+            transition: background-color 1s;
+        }
+
+        
+        button {
+            padding: 10px 15px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="box"></div>
+
+
+<button id="changeColor">Change Color</button>
+
+    
+
+
+    <script>
+        const changeColorButton=document.getElementById("changeColor");
+        
+        const box = document.getElementById("box");
+        
+        changeColorButton.addEventListener("click", () => {
+            document.documentElement.style.setProperty("--main-color", "blue");
+        });
+    </script>
+</body>
+</html>
