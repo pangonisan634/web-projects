@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Query Selector Method Practice</title>
+    <style>
+        :root {
+            --text-color: purple;
+        }
+        h1 {
+            color: var(--text-color);
+        }
+    </style>
+</head>
+<body>
+    <h1 id="heading">"BLALDLSLWLVDE" -Bubble</h1>
+    <button id="getElementByIdButton">Change with getElementById</button>
+    <button id="querySelectorButton">Change with querySelector</button>
+ 
+
+
+    <script>
+        const getElementByIdButton=document.getElementById('getElementByIdButton');
+        const querySelectorButton=document.getElementById('querySelectorButton')
+        
+        getElementByIdButton.addEventListener('click', () => {
+            const heading = document.getElementById('heading');
+            heading.style.setProperty('--text-color', 'red');
+        });
+
+        querySelectorButton.addEventListener('click', () => {
+            const heading = document.querySelector('#heading');
+            heading.style.setProperty('--text-color', 'gray');
+        });
+    </script>
+</body>
+</html>
+
