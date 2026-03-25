@@ -1,0 +1,16 @@
+/* Andrew Pangonis */
+/* 3-25-2026 */
+/* Quiz code */
+
+:root {
+    --main-bg-color: #2272c2;
+}
+
+body {
+    background-color: var(--main-bg-color)
+}
+
+.highlight {
+    color: red;
+    font-weight: bold;
+}
