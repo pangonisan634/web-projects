@@ -15,6 +15,7 @@
   --legend: #895129;
   --laya: #662d91;
   --beta-001: red;
+  --john: #dc4d01;
 }
 
 body {
@@ -53,6 +54,10 @@ header {
 
 .laya {
   color: var(--laya)
+}
+
+.john {
+  color: var(--john)
 }
 
 a:link{
