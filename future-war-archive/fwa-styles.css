@@ -13,9 +13,12 @@
   font-size: 20px;
   font-family: monospace;
   --legend: #895129;
-  --laya: #662d91;
+  --stalwart: #662d91;
   --beta-001: red;
-  --john: #dc4d01;
+  --blitz: #dc4d01;
+  --spotter: #006400;
+  --life: #ffde21;
+  --arcane: #f81894;
 }
 
 body {
@@ -45,19 +48,31 @@ header {
 }
 
 .beta {
-  color: var(--beta-001)
+  color: var(--beta-001);
 }
 
 .legend {
-  color: var(--legend)
+  color: var(--legend);
 }
 
-.laya {
-  color: var(--laya)
+.stalwart {
+  color: var(--stalwart);
 }
 
-.john {
-  color: var(--john)
+.blitz {
+  color: var(--blitz);
+}
+
+.spotter {
+  color: var(--spotter);
+}
+
+.life {
+  color: var(--life);
+}
+
+.arcane {
+  color: var(--arcane);
 }
 
 a:link{
