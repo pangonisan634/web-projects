@@ -19,6 +19,7 @@
   --spotter: #006400;
   --life: #ffde21;
   --arcane: #f81894;
+  --tech: #00BFFF;
 }
 
 body {
@@ -73,6 +74,10 @@ header {
 
 .arcane {
   color: var(--arcane);
+}
+
+.tech {
+  color: var(--tech);
 }
 
 a:link{
