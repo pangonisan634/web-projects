@@ -1,0 +1,25 @@
+/* Andrew Pangonis */
+/* 3-20-2026 */
+/* Javascript Gallery */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: 'Arial', sans-serif;
+    --font-size: 16px;
+    --decaying-gray: #898989;
+    --destruction-black: black;
+    --creation-white: white;
+    --hive-metal: #1D212E;
+}
+
+
+
+
+
+
+
