@@ -20,11 +20,12 @@
 body {
     text-align: center;
     margin: 20px;
+
 }
 
 #gallery-container {
     display: grid;
-    margin: 20px;
+    margin: 20px auto;
     max-width: 600px;
     padding: 20px;
     grid-template-areas:
@@ -37,40 +38,40 @@ body {
 }
 
 h1 {
-    grid-area: "title";
+    grid-area: title;
     margin: 0;
 }
 
 #gallery-img {
-    grid-area: "image";
+    grid-area: image;
     max-width: 100%;
     height: auto;
-    border: 1px;
+    border: 1px solid black;
     border-radius: 4px;
     justify-self: center;
     gap: 15px;
 }
 
 #gallery-caption {
-    grid-area: "caption";
+    grid-area: caption;
     margin: 0;
     font-size: 18px;
 }
 
 #prev-btn {
-    grid-area: "btn-prev";
+    grid-area: btn-prev;
 }
 
 #pause-btn {
-    grid-area: "btn-pause";
+    grid-area: btn-pause;
 }
 
 #next-btn {
-    grid-area: "btn-next";
+    grid-area: btn-next;
 }
 
 button {
-    padding: 10px, 20px;
+    padding: 10px 20px;
     margin: 5px;
     font-size: 16px;
     cursor: pointer;
@@ -81,6 +82,17 @@ button {
 }
 
 button:hover {
-    background-color: var(--decaying-gray)
+    background-color: var(--decaying-gray);
 }
 
+
+@media (min-width: 600px){
+    #gallery-container {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 
+        "title title title"
+        "image image image"
+        "caption caption caption"
+        "btn-prev btn-pause btn-next";
+    }
+}
