@@ -2,16 +2,18 @@
 // 4-29-26
 // JS Image Swap Project
 
-const images = ['the-beginning.png', 'the-end.png']
+const theRivals = ['media/the-beginning.png', 'media/the-end.png'];
 
 const preload = new Image();
-preload.src = modelImages[1]; // Points to the second image in your modelImages array
+preload.src = theRivals[1]; // Points to the second image in your modelImages array
+
+const imgElement = document.getElementById('model-frame');
 
 imgElement.addEventListener('mouseenter', () => {
-     imgElement.src = modelImages[1];
+     imgElement.src = theRivals[1];
 }); // Note the punctuation on this line!
 
 imgElement.addEventListener('mouseleave', () => {
-     imgElement.src = modelImages[0];
+     imgElement.src = theRivals[0];
 });
 
