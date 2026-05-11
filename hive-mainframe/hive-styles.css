@@ -1,0 +1,16 @@
+/* Beta-001 */
+/* The Hivedroid Mainframe */
+/* 6-17-2134 */
+
+:root {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    --hive-red: #ff1818;
+    --hivedroid-metal: #171717;
+}
+
+body {
+    background-color: var(--hivedroid-metal);
+    color: var(--hive-red);
+}
+
