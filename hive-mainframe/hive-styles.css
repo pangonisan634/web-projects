@@ -14,3 +14,57 @@ body {
     color: var(--hive-red);
 }
 
+
+
+.grid-container {
+    /* width: 90%; */
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto auto 400px 90px;
+    /* gap: 20px; */
+    
+    grid-template-areas:
+    
+    'h h h h'
+    'n n n a'
+    'm m m a'
+    'f f f f';
+}
+
+header {
+    grid-area: h;
+    background-color: orange;
+}
+
+nav {
+    grid-area: n;
+    background-color: green;
+}
+
+main {
+    grid-area: m;
+    background-color: limegreen;
+}
+
+aside {
+    grid-area: a;
+    background-color: pink;
+}
+
+footer {
+    grid-area: f;
+    background-color: rgb(105, 96, 96);
+}
+
+a:visited {
+    color: var(--hive-red);
+}
+
+a:hover {
+    color: var(--hive-red);
+}
+
+a:active {
+    color: var(--hive-red);
+}
