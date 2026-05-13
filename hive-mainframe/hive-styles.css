@@ -68,3 +68,6 @@ a:hover {
 a:active {
     color: var(--hive-red);
 }
+
+/* Need to add a MEDIA QUERY to make the page responsive */
+/* You want the page to be able to flip between desktop and mobile layout */
