@@ -27,47 +27,38 @@ body {
     grid-template-areas:
     
     'h h h h'
-    'n n n a'
+    'n n n n'
     'm m m a'
     'f f f f';
 }
 
 header {
     grid-area: h;
-    background-color: orange;
 }
 
 nav {
     grid-area: n;
-    background-color: green;
 }
 
 main {
     grid-area: m;
-    background-color: limegreen;
 }
 
 aside {
     grid-area: a;
-    background-color: pink;
 }
 
 footer {
     grid-area: f;
-    background-color: rgb(105, 96, 96);
 }
 
-a:visited {
-    color: var(--hive-red);
-}
-
-a:hover {
-    color: var(--hive-red);
-}
-
-a:active {
+a:link, a:visited, a:hover, a:active {
     color: var(--hive-red);
 }
 
 /* Need to add a MEDIA QUERY to make the page responsive */
 /* You want the page to be able to flip between desktop and mobile layout */
+
+@media {
+
+}
